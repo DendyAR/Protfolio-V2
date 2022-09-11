@@ -47,7 +47,7 @@ export default function Home() {
             <h4 className="md:text-5xl text-3xl font-[Khumb] text-[#474748] font-semibold">
               I am a Web Developer React Js{" "}
             </h4>
-            <div className="mt-10">
+            <div className="w-1/2 mt-10">
               <button onClick={() => scrollDown(aboutSection)} className="bg-black/80 hover:bg-black/60 transition-all duration-500 w-40 h-12 rounded-full text-base">
                 My Resume{" "}
                 <Image src={FileIcon} alt="icon-file" width={20} height={20} />
