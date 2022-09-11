@@ -9,7 +9,7 @@ const ContactMe = () => {
           <div className="w-full lg:w-1/2 xl:w-6/12 px-4">
             <div className="max-w-[570px] mb-12 lg:mb-0">
               <span className="block mb-4 text-base text-slate-100 font-semibold">
-                Contact Us
+                Contact Me
               </span>
               <h2
                 className="
@@ -23,7 +23,7 @@ const ContactMe = () => {
             xl:text-[40px]
             "
               >
-                GET IN TOUCH WITH US
+                GET IN TOUCH WITH ME
               </h2>
               <p className="text-base text-slate-100 leading-relaxed mb-9">
               Thank you for visiting my website, if you are interested in my skills or invite me to do work please contact me, with the number and email below
