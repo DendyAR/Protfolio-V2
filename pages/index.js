@@ -22,11 +22,11 @@ export default function Home() {
     <React.Fragment>
       <Head>
         <title>Dendy Anugerah Ramadhan</title>
-        <meta charSet="utf-8" onBlurCapture=""/>
+        <meta charSet="utf-8" onBlurCapture="" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="keywords" content="Dendy anugerah ramadhan" />
-        <meta property="og:image" content="/Frame.svg" />
-        <link rel="icon" href="/medal.png" />
+        <meta property="og:image" content="/dendy2.jpg" />
+        <link rel="icon" href="/atF.png" />
       </Head>
       <div className="w-full bg-[#ffffff]">
         <Navbar />
@@ -34,8 +34,15 @@ export default function Home() {
           <div className="flex flex-col lg:gap-3">
             <h1 className="md:text-5xl text-3xl font-[Khumb] text-[#474748] font-semibold">
               Hello ,{" "}
-              <Image src={Avatar} alt="avatar" width={100} height={100}  data-aos="fade-right" data-aos-easing="linear"
-     data-aos-duration="1000"/>
+              <Image
+                src={Avatar}
+                alt="avatar"
+                width={100}
+                height={100}
+                data-aos="fade-right"
+                data-aos-easing="linear"
+                data-aos-duration="1000"
+              />
               ....
             </h1>
             <span className="md:text-5xl text-3xl font-[Khumb] text-[#474748]">
@@ -48,7 +55,10 @@ export default function Home() {
               I am a Web Developer React Js{" "}
             </h4>
             <div className="w-1/2 mt-10">
-              <button onClick={() => scrollDown(aboutSection)} className="bg-black/80 hover:bg-black/60 transition-all duration-500 w-40 h-12 rounded-full text-base">
+              <button
+                onClick={() => scrollDown(aboutSection)}
+                className="bg-black/80 hover:bg-black/60 transition-all duration-500 w-40 h-12 rounded-full text-base"
+              >
                 My Resume{" "}
                 <Image src={FileIcon} alt="icon-file" width={20} height={20} />
               </button>
