@@ -30,20 +30,21 @@ export default function Home() {
       </Head>
       <div className="w-full bg-[#ffffff]">
         <Navbar />
-        <div className="flex flex-col items-center text-start sm:text-left mt-20 px-5 font-[Khumb] my-32">
+        <div className="flex flex-col items-center text-start sm:text-left mt-20 px-5  my-32">
           <div className="flex flex-col lg:gap-3">
-            <h1 className="md:text-5xl text-3xl  text-[#474748] font-semibold">
+            <h1 className="md:text-5xl text-3xl font-[Khumb] text-[#474748] font-semibold">
               Hello ,{" "}
-              <Image src={Avatar} alt="avatar" width={100} height={100} />
+              <Image src={Avatar} alt="avatar" width={100} height={100}  data-aos="fade-right" data-aos-easing="linear"
+     data-aos-duration="1000"/>
               ....
             </h1>
-            <span className="md:text-5xl text-3xl  text-[#474748]">
+            <span className="md:text-5xl text-3xl font-[Khumb] text-[#474748]">
               My name is
             </span>
-            <span className="text-transparent md:text-5xl text-3xl  font-semibold py-5 bg-clip-text bg-gradient-to-r from-[#7E87FD] via-[#3B9EC3] to-[#F55AAC]">
+            <span className="text-transparent lg:text-5xl text-3xl font-bold py-5 bg-clip-text bg-gradient-to-r from-[#7E87FD] via-[#3B9EC3] to-[#F55AAC]">
               Dendy Anugerah Ramadhan
             </span>
-            <h4 className="md:text-5xl text-3xl  text-[#474748] font-semibold">
+            <h4 className="md:text-5xl text-3xl font-[Khumb] text-[#474748] font-semibold">
               I am a Web Developer React Js{" "}
             </h4>
             <div className="mt-10" onClick={() => scrollDown(aboutSection)}>

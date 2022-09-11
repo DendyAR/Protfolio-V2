@@ -14,11 +14,7 @@ const Navbar = () => {
   "
     >
       <div className="flex flex-row text-[#303030] justify-center items-center text-center text-base sm:text-left">
-        <Image src="/medal.png" alt="logo" width={32} height={32} />
-        <h1>
-          My Portofolio
-          <Image src="/medal.png" alt="logo" width={32} height={32} />
-        </h1>
+        <h1>My Portofolio</h1>
       </div>
     </nav>
   );

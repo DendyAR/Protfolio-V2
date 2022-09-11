@@ -3,7 +3,7 @@ import "@google/model-viewer";
 
 const ContactMe = () => {
   return (
-    <section className="bg-red-500 py-20 lg:py-[120px] overflow-hidden relative z-10">
+    <section className="bg-red-500 py-20 lg:py-[170px] overflow-hidden relative z-10">
       <div className="container">
         <div className="flex flex-wrap lg:justify-between mx-4">
           <div className="w-full lg:w-1/2 xl:w-6/12 px-4">
@@ -143,15 +143,15 @@ const ContactMe = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 xl:w-5/12">
-            <div className="relative lg:-mt-32">
+            <div className="relative lg:-mt-36">
               <model-viewer
                 src="/shibahu.glb"
                 camera-controls
                 touch-action="pan-y"
                 autoplay
                 ar
-                shadow-intensity="4"
-                alt="A 3D model of an astronaut"
+                shadow-intensity="3"
+                alt="A 3D model"
               ></model-viewer>
               <div>
                 <span className="absolute -right-10 top-[90px] z-[-1]">

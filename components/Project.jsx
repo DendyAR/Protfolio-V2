@@ -22,7 +22,7 @@ const Project = () => {
     <React.Fragment>
       <div className="flex flex-col items-center justify-center w-full mx-auto mt-32 px-3 lg:px-10">
         <div className="border-t-2 border-black/60 mb-5">
-          <div className="flex flex-col gap-3 w-full px-5 md:px-44 font-[Khumb]" data-aos="fade-up">
+          <div className="flex flex-col gap-3 w-full px-5 md:px-44 font-[Khumb]" data-aos="fade-up" >
             <div className="flex flex-row justify-between" >
               <div className="flex flex-col py-5">
                 <h3 className="text-sm md:text-lg font-bold text-[#474748]">
