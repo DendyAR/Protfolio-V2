@@ -163,7 +163,7 @@ export default function Home() {
                   Company
                 </h6>
                 <p className="font-semibold text-gray-600 text-base">
-                  PT Benua Intergarsi Global{" "}
+                  PT Benua Integrasi Global{" "}
                   <span className="font-normal text-gray-300">
                     / Jakarta , Indonesia
                   </span>

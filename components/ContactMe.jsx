@@ -57,7 +57,7 @@ const ContactMe = () => {
                 </div>
                 <div className="w-full">
                   <h4 className="font-bold text-slate-100 text-xl mb-1">
-                    Our Location
+                    My Location
                   </h4>
                   <p className="text-base text-slate-100">
                     Jl. Kepuh Nagasari , Karawang Jawa barat, Indonesia , 41311
