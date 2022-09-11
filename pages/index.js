@@ -21,13 +21,16 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
-        <title>This page has a title 🤔</title>
-        <meta charSet="utf-8" />
+        <title>Dendy Anugerah Ramadhan</title>
+        <meta charSet="utf-8" onBlurCapture=""/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="keywords" content="Dendy anugerah ramadhan" />
+        <meta property="og:image" content="/Frame.svg" />
+        <link rel="icon" href="/medal.png" />
       </Head>
       <div className="w-full bg-[#ffffff]">
         <Navbar />
-        <div className="flex flex-col items-center text-start sm:text-left mt-20 px-5 font-[Khumb]">
+        <div className="flex flex-col items-center text-start sm:text-left mt-20 px-5 font-[Khumb] my-32">
           <div className="flex flex-col lg:gap-3">
             <h1 className="md:text-5xl text-3xl  text-[#474748] font-semibold">
               Hello ,{" "}
